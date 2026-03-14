@@ -1,0 +1,22 @@
+{
+  "name": "Daylight ES365",
+  "short_name": "DL365",
+  "description": "Decentralized mining, gaming, and streaming platform",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/1000125978.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/1000125978.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

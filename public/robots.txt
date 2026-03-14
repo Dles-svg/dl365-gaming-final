@@ -1,0 +1,11 @@
+# www.dles365.com robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive areas
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.dles365.com/sitemap.xml

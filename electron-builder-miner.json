@@ -1,0 +1,42 @@
+{
+  "appId": "com.daylight.es365.miner",
+  "productName": "Daylight ES365 Miner",
+  "directories": {
+    "output": "dist-electron/miner"
+  },
+  "files": [
+    "dist/**/*",
+    "electron-miner/**/*",
+    "public/daylight-logo.jpg"
+  ],
+  "extraMetadata": {
+    "main": "electron-miner/main.js"
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "public/daylight-logo.jpg"
+  },
+  "mac": {
+    "target": [
+      "dmg"
+    ],
+    "icon": "public/daylight-logo.jpg",
+    "category": "public.app-category.utilities"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "icon": "public/daylight-logo.jpg",
+    "category": "Network"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true
+  }
+}
